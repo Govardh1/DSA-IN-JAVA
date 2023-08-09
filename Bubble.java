@@ -7,6 +7,7 @@ public class Bubble{
     System.out.println(Arrays.toString(ans));
   } 
   static int[] BubbleSort(int[] arr){
+    boolean issorted;
     for(int i=0;i<arr.length-1;i++){
         for(int j=0;j<arr.length-i-1;j++){
             if(arr[j]>arr[j+1]){
@@ -16,6 +17,6 @@ public class Bubble{
             }
         }
     }
-    return arr;
+    return arr; 
   } 
 }
